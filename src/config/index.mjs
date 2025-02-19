@@ -66,6 +66,7 @@ export const claudeApiModelKeys = [
   'claude2Api',
   'claude21Api',
   'claude3HaikuApi',
+  'claude35HaikuApi',
   'claude3SonnetApi',
   'claude3OpusApi',
   'claude35SonnetApi',
@@ -205,6 +206,10 @@ export const Models = {
   claude3HaikuApi: {
     value: 'claude-3-haiku-20240307',
     desc: 'Claude.ai (API, Claude 3 Haiku)',
+  },
+  claude35HaikuApi: {
+    value: 'claude-3-5-haiku-latest',
+    desc: 'Claude.ai (API, Claude 3.5 Haiku Latest)',
   },
   claude3SonnetApi: { value: 'claude-3-sonnet-20240229', desc: 'Claude.ai (API, Claude 3 Sonnet)' },
   claude3OpusApi: { value: 'claude-3-opus-20240229', desc: 'Claude.ai (API, Claude 3 Opus)' },
